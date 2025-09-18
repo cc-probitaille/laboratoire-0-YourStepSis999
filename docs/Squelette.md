@@ -1,6 +1,6 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Charles-Olivier Lefebvre/nomComplet1>
+- <nomComplet1>Charles-Olivier Lefebvre</nomComplet1>
 - <courriel1>charles-olivier.lefebvre.1@ens.etsmtl.ca</courriel1>
 - <codeMoodle1>AU35310</codeMoodle1>
 - <githubAccount1>YourStepSis999</githubAccount1>
