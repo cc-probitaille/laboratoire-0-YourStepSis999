@@ -1,1 +1,16 @@
-// Vous devez complétéer ce fichier
+@startuml
+participant ":JeuDeDes" as game
+participant "joueurs:Map<String, Joueur>" as players
+
+-> game : redemarrerJeu()
+note right
+  selon Contrôleur 
+  (JeuDeDés est 
+  l'objet racine)
+end note
+game -> players : clear()
+note right
+  selon Expert
+end note
+hide footbox
+@enduml
