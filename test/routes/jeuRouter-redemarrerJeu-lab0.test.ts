@@ -28,11 +28,3 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
   });
   
 });
-
-
-
-/* describe('redemarrerJeu.test.ts', () => {
-  it("devrait implémenter test", async () => {
-    throw new Error("Ce test n'a pas été défini")
-  });
-}); */
