@@ -26,5 +26,14 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
       message: "Success",
     }));
   });
+
+  it("devrait retourner 404 (joueur inexistant après redemarrerJeu)", async () => {
+  await request.get('/api/v1/jeu/redemarrerJeu');
+
+  const response = await request.get('/api/v1/jeu/jouer/test');
+
+  expect(response.status).toBe(404);
+  expect(response.type).toBe("application/json");
+});
   
 });

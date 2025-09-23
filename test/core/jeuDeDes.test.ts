@@ -19,7 +19,7 @@ describe('JeuDeDesTest', () => {
 
   it('devrait retourner finalement toutes les valeurs entre 3 et 18', () => {
     const resultats = new Set();
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 2000; i++) {
       resultats.add(jdd.brasser())
     }
     expect(resultats.size).toBe(16);
